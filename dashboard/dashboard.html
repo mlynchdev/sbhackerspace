@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="dash.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Control Panel</h1>
+      <!-- Membership Status -->
+      <div class="card">
+        <div class="flex">
+          <div class="avatar mr"></div>
+          <div class="col">
+            <span id="since"></span>
+            <span id="name" class="name"></span>
+          </div>
+        </div>
+        <div id="tier"></div>
+
+        <div class="mr">Next Payment Date:</div>
+        <span id="billing"></span>
+      </div>
+    </div>
+    <script src="dash.js"></script>
+  </body>
+</html>
